@@ -16,7 +16,15 @@ fullscreen = 0
 android.permissions = INTERNET,ACCESS_NETWORK_STATE
 android.api = 31
 android.minapi = 21
+android.sdk = 33
+android.ndk = 23b
+android.gradle_dependencies = 'com.android.support:support-annotations:28.0.0'
 android.enable_androidx = True
+
+# پذیرش خودکار لایسنس
+android.accept_sdk_license = True
+
+# معماری‌های پشتیبانی‌شده
 android.arm64_v8a = True
 android.armeabi_v7a = False
 android.x86 = False
